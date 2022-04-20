@@ -7,3 +7,15 @@
 body {
   @apply min-h-screen w-full box-border;
 }
+
+@keyframes scrolldown {
+	0%{
+		background-position: 0 -48px;
+	}
+	75% {
+		background-position: 0 0;
+	}
+	100%{
+		background-position: 0 48px;
+	}
+}
