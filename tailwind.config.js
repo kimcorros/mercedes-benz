@@ -14,6 +14,7 @@ module.exports = {
       },
       animation: {
         'scrolldown': 'scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite',
+        'loading': 'loading 2s linear infinite'
       },
       backgroundPosition: {
         scrolldown: '0 -48px'
