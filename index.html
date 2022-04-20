@@ -41,24 +41,20 @@
       <div class="relative h-[640px]">
         <img src="/assets/images/hero.jpeg" class="h-full w-full object-cover"/>
         <div class="absolute bottom-0 p-4 flex flex-col space-y-4 w-full">
-          <span class="text-3xl text-left">
+          <span class="text-3xl text-left flex flex-col">
             MERCEDES-AMG SLC43. EXCLUSIVE SPORTYNESS.
           </span>
-          <div class="flex justify-between">
-            <div class="w-full flex-grow">
-              <button class="text-base">
-                <span>
-                  READ
-                </span>
-                <span class="font-medium">
-                  MORE
-                </span>
-              </button>
-            </div>
-            <div class="bg-white w-0.5 h-10">
-            </div>
-            <div class="w-full flex-grow">
-
+          <div class="w-full flex-grow relative pb-6 flex items-start">
+            <button class="text-base">
+              <span>
+                READ
+              </span>
+              <span class="font-medium">
+                MORE
+              </span>
+            </button>
+            <div class="w-0.5 h-12 absolute bottom-0 left-0 right-0 mx-auto overflow-hidden">
+              <div class="w-full h-full block bg-scroll to-transparent bg-scrolldown bg-[length:100%_200%] animate-scrolldown"></div>
             </div>
           </div>
         </div>
@@ -87,7 +83,7 @@
           <!-- NEWS -->
           <div class="relative w-full h-[335px] cursor-pointer group overflow-hidden">
             <image src="/assets/images/news.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
-            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center group-hover:border-4 group-hover:border-sky-550">
               <a href="#news">
                 NEWS
               </a>
@@ -97,7 +93,7 @@
           <!-- EVENTS -->
           <div class="relative w-full h-[335px] aspect-square cursor-pointer group overflow-hidden">
             <image src="https://www.teahub.io/photos/full/64-644444_wallpaper-forest-road-aerial-view-trees-autumn-fall.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
-            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center group-hover:border-4 group-hover:border-sky-550">
               <a href="#events">
                 EVENTS
               </a>
@@ -107,7 +103,7 @@
           <!-- BAUREIHEN -->
           <div class="relative w-full h-[335px] aspect-square cursor-pointer group overflow-hidden">
             <image src="https://www.mb.zungfu.com/web/images/events/models/MBC10152.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
-            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center group-hover:border-4 group-hover:border-sky-550">
               <a href="#BAUREIHEN">
                 BAUREIHEN
               </a>
@@ -122,7 +118,7 @@
               <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
               <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
             </div>
-            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center group-hover:border-4 group-hover:border-sky-550">
               <a href="#BAUREIHEN">
                 GALLERY
               </a>
@@ -144,13 +140,13 @@
               <label for="email_address">
                 EMAIL ADDRESS*
               </label>
-              <input id="email_address" name="email_address" placeholder="Email Address" class="bg-white p-4 placeholder-gray-500 focus:outline-none" />
+              <input id="email_address" name="email_address" placeholder="Email Address" class="bg-white p-4 placeholder-gray-500 focus:outline-none focus:ring-2  focus:ring-sky-550" />
             </div>
             <div class="flex flex-col space-y-2">
               <label for="name">
                 YOUR NAME*
               </label>
-              <input id="name" name="name" placeholder="Name Surname" class="bg-white p-4 placeholder-gray-500 focus:outline-none" />
+              <input id="name" name="name" placeholder="Name Surname" class="bg-white p-4 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-sky-550" />
             </div>
             <button type="submit" class="bg-[#F6BF00] text-black w-full p-3 text-base font-medium">
               SIGN UP
