@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mercedes Benz</title>
+  </head>
+  <body class="bg-black text-white">
+
+    <!-- NAVBAR -->
+    <section id="navbar" class="fixed w-full bg-black text-white flex justify-between items-center px-3 py-4 h-20 z-10">
+      <img src="https://www.mercedes-benz.ph/etc/designs/embcms/images/icon/mblogo/MB-star_n_web.svg" class="h-auto w-10"/>
+      <div class="flex justify-between space-x-6 items-end">
+        <svg fill="currentColor" class="h-6 w-6" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+          <g id="User">
+            <path d="M41.2452,33.0349a16,16,0,1,0-18.49,0A26.0412,26.0412,0,0,0,4,58a2,2,0,0,0,2,2H58a2,2,0,0,0,2-2A26.0412,26.0412,0,0,0,41.2452,33.0349ZM20,20A12,12,0,1,1,32,32,12.0137,12.0137,0,0,1,20,20ZM8.09,56A22.0293,22.0293,0,0,1,30,36h4A22.0293,22.0293,0,0,1,55.91,56Z" />
+          </g>
+        </svg>
+        <div class="relative sm:max-w-xl mx-auto">
+          <nav>
+            <button class="relative focus:outline-none flex flex-col items-end space-y-2">
+              <span class="block h-0.5 w-4 bg-white rounded-full"></span>
+              <span class="block h-0.5 w-6 bg-white rounded-full"></span>
+              <span class="text-xs font-medium">
+                MENU
+              </span>
+            </button>
+          </nav>
+        </div>
+      </div>
+    </section>
+    <section id="content" class="w-full pt-20">
+      <div class="bg-sky-550 h-3">
+      </div>
+
+      <!-- HERO SECTION -->
+      <div class="relative h-[640px]">
+        <img src="/assets/images/hero.jpeg" class="h-full w-full object-cover"/>
+        <div class="absolute bottom-0 p-4 flex flex-col space-y-4 w-full">
+          <span class="text-3xl text-left">
+            MERCEDES-AMG SLC43. EXCLUSIVE SPORTYNESS.
+          </span>
+          <div class="flex justify-between">
+            <div class="w-full flex-grow">
+              <button class="text-base">
+                <span>
+                  READ
+                </span>
+                <span class="font-medium">
+                  MORE
+                </span>
+              </button>
+            </div>
+            <div class="bg-white w-0.5 h-10">
+            </div>
+            <div class="w-full flex-grow">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="px-4 py-10 flex flex-col space-y-10">
+        <!-- VISION STATEMENT -->
+        <div>
+          <h1 class="text-2xl">
+            <span class="font-medium">VISION</span> STATEMENT
+          </h1>
+          <p class="text-xl font-light my-5">
+            We are the leading tour operator for Mercedes-Benz cabriolets and roadsters. We create unique and memorable guest experiences by offering guided tours to the most beautiful and popular destinations in Europe.
+          </p>
+          <button class="text-base">
+            <span>
+              READ
+            </span>
+            <span class="font-medium">
+              MORE
+            </span>
+          </button>
+        </div>
+
+        <div class="flex flex-col space-y-6">
+          <!-- NEWS -->
+          <div class="relative w-full h-[335px] cursor-pointer group overflow-hidden">
+            <image src="/assets/images/news.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+              <a href="#news">
+                NEWS
+              </a>
+            </div>
+          </div>
+
+          <!-- EVENTS -->
+          <div class="relative w-full h-[335px] aspect-square cursor-pointer group overflow-hidden">
+            <image src="https://www.teahub.io/photos/full/64-644444_wallpaper-forest-road-aerial-view-trees-autumn-fall.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+              <a href="#events">
+                EVENTS
+              </a>
+            </div>
+          </div>
+
+          <!-- BAUREIHEN -->
+          <div class="relative w-full h-[335px] aspect-square cursor-pointer group overflow-hidden">
+            <image src="https://www.mb.zungfu.com/web/images/events/models/MBC10152.jpg" class="transition ease-in-out object-cover h-full w-full group-hover:scale-125"/>
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+              <a href="#BAUREIHEN">
+                BAUREIHEN
+              </a>
+            </div>
+          </div>
+
+          <!-- GALLERY -->
+          <div class="relative w-full h-[335px] aspect-square cursor-pointer group overflow-hidden">
+            <div class="grid grid-cols-2 grid-rows-2 gap-2 h-full w-full">
+              <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
+              <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
+              <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
+              <image src="/assets/images/gallery.jpg" class="object-cover h-full"/>
+            </div>
+            <div class="bg-black bg-opacity-50 h-full w-full absolute top-0 text-4xl font-medium flex justify-center items-center">
+              <a href="#BAUREIHEN">
+                GALLERY
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div>
+          <h1 class="text-2xl">
+            Stay in touch with us.
+          </h1>
+          <p class="text-sm mt-5 mb-8">
+            Sign up for the latest automotive news and travel informations.
+          </p>
+
+          <form class="text-sm flex flex-col space-y-5">
+            <div class="flex flex-col space-y-2">
+              <label for="email_address">
+                EMAIL ADDRESS*
+              </label>
+              <input id="email_address" name="email_address" placeholder="Email Address" class="bg-white p-4 placeholder-gray-500 focus:outline-none" />
+            </div>
+            <div class="flex flex-col space-y-2">
+              <label for="name">
+                YOUR NAME*
+              </label>
+              <input id="name" name="name" placeholder="Name Surname" class="bg-white p-4 placeholder-gray-500 focus:outline-none" />
+            </div>
+            <button type="submit" class="bg-[#F6BF00] text-black w-full p-3 text-base font-medium">
+              SIGN UP
+            </button>
+            <button class="bg-transparent text-gray-500 border border-gray-500 w-full p-3 text-base font-medium">
+              UNSUBSCRIBE
+            </button>
+          </form>
+          <p class="text-xs mt-10">
+            This site is intended for EU and Swiss consumers. By signing up, you understand and agree that your data will be collected and used subject to our EU/Switzerland Privacy Policy and Terms of Use. 
+          </p>
+          <p class="text-xs mt-4">
+            * Required information
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <div class="flex flex-col mt-12 pb-16">
+
+      <!-- SOCIAL LINKS -->
+      <div class="flex flex-col space-y-6 px-4">
+        <h2 class="text-2xl">
+          Contact Us. Follow Us.
+        </h2>
+
+        <div class="flex space-x-4">
+          <a href="https://instagram.com">
+            <svg
+              class="h-6 w-6"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+              <line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line>
+            </svg>
+          </a>
+          <a href="https://twitter.com/">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 16" version="1.1">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Dribbble-Light-Preview" transform="translate(-60.000000, -7521.000000)" fill="currentColor">
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path d="M10.29,7377 C17.837,7377 21.965,7370.84365 21.965,7365.50546 C21.965,7365.33021 21.965,7365.15595 21.953,7364.98267 C22.756,7364.41163 23.449,7363.70276 24,7362.8915 C23.252,7363.21837 22.457,7363.433 21.644,7363.52751 C22.5,7363.02244 23.141,7362.2289 23.448,7361.2926 C22.642,7361.76321 21.761,7362.095 20.842,7362.27321 C19.288,7360.64674 16.689,7360.56798 15.036,7362.09796 C13.971,7363.08447 13.518,7364.55538 13.849,7365.95835 C10.55,7365.79492 7.476,7364.261 5.392,7361.73762 C4.303,7363.58363 4.86,7365.94457 6.663,7367.12996 C6.01,7367.11125 5.371,7366.93797 4.8,7366.62489 L4.8,7366.67608 C4.801,7368.5989 6.178,7370.2549 8.092,7370.63591 C7.488,7370.79836 6.854,7370.82199 6.24,7370.70483 C6.777,7372.35099 8.318,7373.47829 10.073,7373.51078 C8.62,7374.63513 6.825,7375.24554 4.977,7375.24358 C4.651,7375.24259 4.325,7375.22388 4,7375.18549 C5.877,7376.37088 8.06,7377 10.29,7376.99705" />
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+          <a href="https://facebook.com/">
+            <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 10 20" version="1.1">
+              <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                <g id="Dribbble-Light-Preview" transform="translate(-385.000000, -7399.000000)" fill="currentColor">
+                  <g id="icons" transform="translate(56.000000, 160.000000)">
+                    <path d="M335.821282,7259 L335.821282,7250 L338.553693,7250 L339,7246 L335.821282,7246 L335.821282,7244.052 C335.821282,7243.022 335.847593,7242 337.286884,7242 L338.744689,7242 L338.744689,7239.14 C338.744689,7239.097 337.492497,7239 336.225687,7239 C333.580004,7239 331.923407,7240.657 331.923407,7243.7 L331.923407,7246 L329,7246 L329,7250 L331.923407,7250 L331.923407,7259 L335.821282,7259 Z"/>
+                  </g>
+                </g>
+              </g>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- PARTNER COMPANIES -->
+      <div class="w-full bg-[#464646] px-6 py-4 flex items-center space-x-6 mt-12">
+        <div class="flex flex-col space-y-2 text-[10px] font-medium w-full">
+          <p>
+            A MEMBER OF
+          </p>
+          <p>
+            LEADING AUTOMOBILE CLUBS
+          </p>
+        </div>
+        <img src="https://marriottbonvoyasia.com/assets/benefits/assets/img/bonvoy_logo_r.svg" class="h-14 w-auto" />
+        <img src="/assets/images/emirates-skywards-logo.png" class="h-12 w-auto" />
+      </div>
+
+      <!-- LINKS -->
+      <div class="flex justify-center space-x-2 text-[10px] text-[#464646] mt-4 font-medium">
+        <a href="" class="hover:text-white">PROVIDER</a>
+        <a href="" class="hover:text-white">PRIVACY</a>
+        <a href="" class="hover:text-white">TERMS & CONDITION</a>
+        <a href="" class="hover:text-white">LEGAL NOTICE</a>
+        <a href="" class="hover:text-white">SETTINGS</a>
+      </div>
+      <div class="flex flex-col items-center space-y-6 mt-4 text-[#464646] font-medium text-[10px]">
+        <span>COPYRIGHT</span>
+
+        <span>&copy; 2022 MYCOMPANY GmbH. All Rights Reserved.</span>
+      </div>
+    </div>
+
+    <!-- EVENT NOTIFICATION -->
+    <div class="fixed bottom-0 w-full flex items-end">
+      <div class="bg-white px-4 py-1 text-black flex justify-between flex-grow">
+        <div class="flex flex-col items-start">
+          <span class="font-bold text-sm">Choose Destination</span>
+          <span class="font-medium">
+            DEUTSCHE HOCHALPENSTRASSE
+          </span>
+          <span class="font-medium">
+            28 SEPT - 4 OCT 2022
+          </span>
+        </div>
+        <svg class="h-auto w-8 text-black" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" enable-background="new 0 0 24 24" viewBox="0 0 24 24" xml:space="preserve">
+          <polyline fill="none" points="21,8.5 12,17.5 3,8.5 " stroke="currentColor" stroke-miterlimit="10" stroke-width="2" />
+        </svg>
+      </div>
+      <div class="h-24 w-24 bg-[#F6BF00] flex items-center justify-center">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="-16 -26 504.00134 504" class="h-10">
+          <path d="m461.25 339.328125c6.214844 0 11.25-5.039063 11.25-11.25 0-116-84.039062-212.75-194.433594-232.539063-3.640625-20.238281-21.253906-34.960937-41.816406-34.960937-20.558594 0-38.167969 14.722656-41.8125 34.960937-110.390625 19.789063-194.43359375 116.539063-194.43359375 232.539063 0 6.210937 5.03906275 11.25 11.24999975 11.25h163.75v27.5h-101.734375c-11.019531-.027344-21.445312 4.984375-28.304687 13.605469l-42.5 53.113281c-2.703125 3.378906-3.226563 8.007813-1.351563 11.902344 1.875 3.902343 5.816407 6.378906 10.140625 6.378906h449.996094c4.324219 0 8.265625-2.480469 10.140625-6.378906 1.875-3.894531 1.347656-8.523438-1.359375-11.902344l-42.5-53.113281c-6.859375-8.621094-17.277344-13.628906-28.292969-13.605469h-101.738281v-27.5zm-225-256.246094c6.871094.003907 13.257812 3.539063 16.90625 9.359375-5.582031-.398437-11.214844-.609375-16.90625-.609375-5.683594 0-11.316406.210938-16.902344.609375 3.652344-5.820312 10.035156-9.355468 16.902344-9.359375zm0 31.25c114.085938 0 207.582031 89.847657 213.457031 202.496094h-426.910156c5.875-112.648437 99.371094-202.496094 213.453125-202.496094zm-201.585938 314.996094 7-8.75h389.179688l7 8.75zm375.3125-34.84375 2.871094 3.59375h-353.1875l2.878906-3.589844c2.601563-3.269531 6.554688-5.167969 10.734376-5.160156h325.964843c4.179688-.007813 8.128907 1.890625 10.738281 5.15625zm-134.976562-27.65625h-77.496094v-27.5h77.496094zm0 0" />
+          <path d="m247.5 34.332031v-23.75c0-6.214843-5.03125-11.25-11.25-11.25-6.210938 0-11.25 5.035157-11.25 11.25v23.75c0 6.210938 5.039062 11.25 11.25 11.25 6.21875 0 11.25-5.039062 11.25-11.25zm0 0" />
+          <path d="m276.46875 62.238281c2.984375.003907 5.847656-1.183593 7.957031-3.296875l16.789063-16.792968c4.394531-4.394532 4.394531-11.515626 0-15.90625-4.386719-4.394532-11.511719-4.394532-15.90625 0l-16.792969 16.792968c-3.214844 3.214844-4.179687 8.054688-2.441406 12.257813 1.746093 4.207031 5.847656 6.945312 10.394531 6.945312zm0 0" />
+          <path d="m196.039062 62.238281c4.546876 0 8.648438-2.738281 10.386719-6.945312 1.746094-4.203125.78125-9.042969-2.433593-12.257813l-16.792969-16.792968c-4.394531-4.394532-11.519531-4.394532-15.914063 0-4.394531 4.390624-4.394531 11.511718 0 15.90625l16.796875 16.792968c2.105469 2.113282 4.972657 3.300782 7.957031 3.296875zm0 0" />
+          <path d="m303.167969 186.605469c20.242187 13.242187 38.085937 29.808593 52.792969 49.003906 3.785156 4.925781 10.84375 5.859375 15.777343 2.082031 4.929688-3.785156 5.859375-10.847656 2.078125-15.777344-16.242187-21.203124-35.964844-39.5-58.3125-54.128906-3.363281-2.253906-7.675781-2.527344-11.300781-.714844-3.617187 1.8125-5.984375 5.425782-6.199219 9.46875-.210937 4.042969 1.761719 7.890626 5.175782 10.066407zm0 0" />
+        </svg>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
